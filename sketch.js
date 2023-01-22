@@ -37,9 +37,11 @@ function setup() {
    score = 0  
   redB= new Group();
   //Crie um grupo para greenBalloon (balão verde)
+  greenB = new Grouo ();
  //Crie um grupo para blueBalloon (balão azul)
+  blueB = new Grouo ();
  //Crie um grupo para pinkBalloon (balão rosa)
-  
+  pinkB = new Grouo ();
   arrowGroup= new Group();
  
   
@@ -96,23 +98,6 @@ function draw() {
 }
 
  
-//Crie a função isTouching() 
-//Use função destroyEach() para destruir o grupo greenBalloon (balão verde)
-//Use função destroyEach() para destruir arrowGroup (grupo de flecha).
-//Aumente a pontuação em 3.
-
-
-
-//Crie a função isTouching() 
-//Use função destroyEach() para destruir o grupo blueBalloon (balão azul)
-//Use função destroyEach() para destruir arrowGroup.
-//Aumente a pontuação em 2.
-
-
-//Crie a função isTouching()
-//Use função destroyEach() para destruir o grupo pinkBalloon (balão rosa)
-//Use função destroyEach() para destruir arrowGroup.
-//Aumente a pontuação em 1.
 
  }
   
